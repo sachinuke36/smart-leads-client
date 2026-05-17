@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/api/health', (_req: Request, res: Response) => {
   res.status(200).json({
     success: true,
-    message: 'Smart Leads API is running',
+    message: 'GigFlow API is running',
     timestamp: new Date().toISOString()
   });
 });

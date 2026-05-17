@@ -58,7 +58,7 @@ export const RegisterPage = (): JSX.Element => {
             Create an account
           </h1>
           <p className="mt-2 text-gray-600 dark:text-gray-400">
-            Get started with Smart Leads
+            Get started with GigFlow
           </p>
         </div>
 
