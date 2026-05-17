@@ -1,17 +1,26 @@
-# Smart Leads Dashboard
+# GigFlow - Smart Leads Dashboard
 
 A full-stack Lead Management Dashboard built with the MERN stack (MongoDB, Express.js, React, Node.js) using TypeScript.
+
+## Live Demo
+
+- **Frontend**: [https://smart-leads-client-1.onrender.com](https://smart-leads-client-1.onrender.com)
+- **Backend API**: [https://smart-leads-client-y3fa.onrender.com](https://smart-leads-client-y3fa.onrender.com)
+
+> Note: Free tier services may take ~30 seconds to wake up on first request.
 
 ## Features
 
 ### Core Features
 - **Authentication System**: JWT-based authentication with secure password hashing
 - **Role-Based Access Control**: Admin and Sales User roles with different permissions
+- **User Management**: Admin panel to promote/demote users (Admin only)
 - **Leads Management**: Full CRUD operations for leads
 - **Advanced Filtering & Search**: Filter by status, source, and search by name/email
 - **Pagination**: Backend pagination with 10 records per page
 - **CSV Export**: Export filtered leads to CSV format
 - **Dark Mode**: Toggle between light and dark themes
+- **Responsive Design**: Works on desktop, tablet, and mobile
 
 ### Technical Features
 - TypeScript throughout (frontend and backend)
